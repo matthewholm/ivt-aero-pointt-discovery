@@ -8,6 +8,19 @@ Bosch Climate 3000i/5000i/8000i, Buderus, Junkers, Worcester equivalents).
 Written while debugging a Home Assistant setup for an **IVT Aero** air-to-air
 heat pump connected via a **K30** gateway.
 
+Requires Python 3.10+ (uses `X | None` union-type syntax).
+
+## Quick start
+
+```bash
+pip install truststore
+mkdir secrets   # then create secrets/ivt_token_entry.json, see below
+
+python scripts/verify_token.py       # confirms your tokens work
+python scripts/crawl_tree.py         # maps the resource tree for your device
+python scripts/discover_endpoints.py # sweeps a fixed list of known paths
+```
+
 ## Key finding
 
 The PoinTT API resource tree is **not the same** for every device family:

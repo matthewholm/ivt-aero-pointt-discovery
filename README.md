@@ -14,12 +14,24 @@ Requires Python 3.10+ (uses `X | None` union-type syntax).
 
 ```bash
 pip install truststore
-mkdir secrets   # then create secrets/ivt_token_entry.json, see below
+
+# Get secrets/ivt_token_entry.json — pick ONE:
+python scripts/get_tokens.py          # A: from scratch, browser login only
+# ...or write it by hand from an existing integration's stored tokens,
+# see "Getting a token file" below for the exact format.
 
 python scripts/verify_token.py       # confirms your tokens work
 python scripts/crawl_tree.py         # maps the resource tree for your device
 python scripts/discover_endpoints.py # sweeps a fixed list of known paths
 ```
+
+`get_tokens.py` walks you through the login and writes the token file for
+you — no existing Home Assistant setup needed. The one thing that trips
+people up: the authorization code is short-lived (observed: well under a
+minute) and single-use, so do the browser step and paste the code back
+**immediately** — don't let it sit in a chat window or a note first. If the
+exchange fails with `invalid_grant` or similar, the code expired — get a
+fresh one and go straight back in.
 
 ## Key finding
 
@@ -89,6 +101,10 @@ pip install truststore
 - **`pointt_client.py`** — minimal OAuth2 + REST client. Loads tokens from
   `secrets/ivt_token_entry.json` (gitignored, never commit this file —
   see below for how to obtain it), auto-refreshes expired access tokens.
+- **`get_tokens.py`** — gets `secrets/ivt_token_entry.json` from scratch:
+  prints the SingleKey ID login URL, takes the authorization code you get
+  back, exchanges it for tokens, looks up your account's gateway(s), and
+  saves the file. No existing HA setup required.
 - **`verify_token.py`** — sanity check: one GET against
   `/gateway/versionFirmware` to confirm the tokens are valid.
 - **`discover_endpoints.py`** — sweeps a fixed list of candidate resource
@@ -105,8 +121,8 @@ pip install truststore
 
 ### Getting a token file
 
-These scripts expect `secrets/ivt_token_entry.json` (create the `secrets/`
-directory yourself — it's gitignored):
+All scripts expect `secrets/ivt_token_entry.json` (gitignored, created
+automatically by `get_tokens.py` — see Quick start above). Its format:
 
 ```json
 {
@@ -117,9 +133,15 @@ directory yourself — it's gitignored):
 }
 ```
 
-If you already have a working OAuth2-based integration (Home Assistant or
-otherwise) for this API, its stored config entry / token cache will have
-these same four fields under different key names.
+Two ways to get one:
+
+- **From scratch:** run `python scripts/get_tokens.py` and follow the
+  prompts (browser login, paste back the code). See the code-expiry note
+  in Quick start above — this is the step most likely to need a retry.
+- **From an existing integration:** if you already have a working
+  OAuth2-based integration (Home Assistant or otherwise) for this API, its
+  stored config entry / token cache will have these same four fields under
+  different key names — copy them into this format by hand.
 
 ## Results
 

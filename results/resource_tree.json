@@ -1,0 +1,955 @@
+{
+  "device_id": "REDACTED",
+  "crawled_at": "2026-08-02T16:37:42.959642+00:00",
+  "roots": [
+    "/system",
+    "/gateway",
+    "/notifications",
+    "/airConditioning/standardFunctions",
+    "/airConditioning/advancedFunctions",
+    "/airConditioning/switchPrograms/list",
+    "/airConditioning/timers"
+  ],
+  "nodes": {
+    "/system": {
+      "status": 200,
+      "body": {
+        "id": "/system",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/system/bus",
+            "uri": "https://10.10.20.42/system/bus"
+          },
+          {
+            "id": "/system/brand",
+            "uri": "https://10.10.20.42/system/brand"
+          },
+          {
+            "id": "/system/appliance",
+            "uri": "https://10.10.20.42/system/appliance"
+          }
+        ]
+      }
+    },
+    "/gateway": {
+      "status": 200,
+      "body": {
+        "id": "/gateway",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/gateway/uuid",
+            "uri": "https://10.10.20.42/gateway/uuid"
+          },
+          {
+            "id": "/gateway/versionServicePack",
+            "uri": "https://10.10.20.42/gateway/versionServicePack"
+          },
+          {
+            "id": "/gateway/swPrefix",
+            "uri": "https://10.10.20.42/gateway/swPrefix"
+          },
+          {
+            "id": "/gateway/versionFirmware",
+            "uri": "https://10.10.20.42/gateway/versionFirmware"
+          },
+          {
+            "id": "/gateway/versionHardware",
+            "uri": "https://10.10.20.42/gateway/versionHardware"
+          },
+          {
+            "id": "/gateway/serialId",
+            "uri": "https://10.10.20.42/gateway/serialId"
+          },
+          {
+            "id": "/gateway/xmppPassword",
+            "uri": "https://10.10.20.42/gateway/xmppPassword"
+          },
+          {
+            "id": "/gateway/eolCmd",
+            "uri": "https://10.10.20.42/gateway/eolCmd"
+          },
+          {
+            "id": "/gateway/DateTime",
+            "uri": "https://10.10.20.42/gateway/DateTime"
+          },
+          {
+            "id": "/gateway/tosAccepted",
+            "uri": "https://10.10.20.42/gateway/tosAccepted"
+          },
+          {
+            "id": "/gateway/factoryReset",
+            "uri": "https://10.10.20.42/gateway/factoryReset"
+          },
+          {
+            "id": "/gateway/wifi",
+            "uri": "https://10.10.20.42/gateway/wifi"
+          },
+          {
+            "id": "/gateway/update",
+            "uri": "https://10.10.20.42/gateway/update"
+          },
+          {
+            "id": "/gateway/tzInfo",
+            "uri": "https://10.10.20.42/gateway/tzInfo"
+          }
+        ]
+      }
+    },
+    "/notifications": {
+      "status": 200,
+      "body": {
+        "id": "/notifications",
+        "type": "errorList",
+        "writeable": 0,
+        "recordable": 0,
+        "values": []
+      }
+    },
+    "/airConditioning/standardFunctions": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/standardFunctions",
+        "type": "bulk",
+        "references": [
+          {
+            "id": "/airConditioning/operationMode",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "cool",
+            "allowedValues": [
+              "auto",
+              "heat",
+              "cool",
+              "fanOnly"
+            ]
+          },
+          {
+            "id": "/airConditioning/acControl",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "off",
+            "allowedValues": [
+              "on",
+              "off"
+            ]
+          },
+          {
+            "id": "/airConditioning/fanSpeed",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "quiet",
+            "allowedValues": [
+              "auto",
+              "quiet",
+              "low",
+              "mid",
+              "high"
+            ]
+          },
+          {
+            "id": "/airConditioning/airFlowHorizontal",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "center",
+            "allowedValues": [
+              "center",
+              "left",
+              "right",
+              "swing"
+            ]
+          },
+          {
+            "id": "/airConditioning/airFlowVertical",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "angle5",
+            "allowedValues": [
+              "auto",
+              "angle1",
+              "angle2",
+              "angle3",
+              "angle4",
+              "angle5",
+              "swing"
+            ]
+          },
+          {
+            "id": "/airConditioning/temperatureSetpoint",
+            "type": "floatValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": 19.0,
+            "unitOfMeasure": "C",
+            "minValue": 16.0,
+            "maxValue": 30.0
+          },
+          {
+            "id": "/airConditioning/roomTemperature",
+            "type": "floatValue",
+            "writeable": 0,
+            "recordable": 0,
+            "value": 22.0,
+            "unitOfMeasure": "C"
+          },
+          {
+            "id": "/airConditioning/quickAirFlows",
+            "type": "stringValue",
+            "writeable": 0,
+            "recordable": 0,
+            "value": ""
+          }
+        ]
+      }
+    },
+    "/airConditioning/operationMode": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/operationMode",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "cool",
+        "allowedValues": [
+          "auto",
+          "heat",
+          "cool",
+          "fanOnly"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/acControl": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/acControl",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "off",
+        "allowedValues": [
+          "on",
+          "off"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/fanSpeed": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/fanSpeed",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "quiet",
+        "allowedValues": [
+          "auto",
+          "quiet",
+          "low",
+          "mid",
+          "high"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/airFlowHorizontal": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/airFlowHorizontal",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "center",
+        "allowedValues": [
+          "center",
+          "left",
+          "right",
+          "swing"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/airFlowVertical": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/airFlowVertical",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "angle5",
+        "allowedValues": [
+          "auto",
+          "angle1",
+          "angle2",
+          "angle3",
+          "angle4",
+          "angle5",
+          "swing"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/temperatureSetpoint": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/temperatureSetpoint",
+        "type": "floatValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": 19.0,
+        "unitOfMeasure": "C",
+        "minValue": 16.0,
+        "maxValue": 30.0
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/roomTemperature": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/roomTemperature",
+        "type": "floatValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": 22.0,
+        "unitOfMeasure": "C"
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/quickAirFlows": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/quickAirFlows",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": ""
+      },
+      "via_bulk_parent": "/airConditioning/standardFunctions"
+    },
+    "/airConditioning/advancedFunctions": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/advancedFunctions",
+        "type": "bulk",
+        "references": [
+          {
+            "id": "/airConditioning/setbackMode",
+            "type": "stringValue",
+            "writeable": 0,
+            "recordable": 0,
+            "value": "off"
+          },
+          {
+            "id": "/airConditioning/airPurificationMode",
+            "type": "stringValue",
+            "writeable": 0,
+            "recordable": 0,
+            "value": "off"
+          },
+          {
+            "id": "/airConditioning/fullPowerMode",
+            "type": "stringValue",
+            "writeable": 0,
+            "recordable": 0,
+            "value": "off"
+          }
+        ]
+      }
+    },
+    "/airConditioning/setbackMode": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/setbackMode",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "off"
+      },
+      "via_bulk_parent": "/airConditioning/advancedFunctions"
+    },
+    "/airConditioning/airPurificationMode": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/airPurificationMode",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "off"
+      },
+      "via_bulk_parent": "/airConditioning/advancedFunctions"
+    },
+    "/airConditioning/fullPowerMode": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/fullPowerMode",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "off"
+      },
+      "via_bulk_parent": "/airConditioning/advancedFunctions"
+    },
+    "/airConditioning/switchPrograms/list": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/switchPrograms/list",
+        "type": "bulk",
+        "references": [
+          {
+            "id": "/airConditioning/switchPrograms/enabled",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "on",
+            "allowedValues": [
+              "off",
+              "on"
+            ]
+          },
+          {
+            "id": "/airConditioning/switchPrograms/activeProgram",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "program1",
+            "allowedValues": [
+              "program1",
+              "program2"
+            ]
+          },
+          {
+            "id": "/airConditioning/switchPrograms/temporarySetting/enabled",
+            "type": "stringValue",
+            "writeable": 1,
+            "recordable": 0,
+            "value": "on",
+            "allowedValues": [
+              "off"
+            ]
+          },
+          {
+            "id": "/airConditioning/switchPrograms/configuration",
+            "type": "configDataArray",
+            "writeable": 0,
+            "maxNbOfSwitchPoints": 70,
+            "maxNbOfSwitchPointsPerDay": 10,
+            "switchPointTimeRaster": 15,
+            "allowedValues": [
+              {
+                "operationMode": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "auto"
+                  ]
+                },
+                "fanSpeed": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "auto",
+                    "quiet",
+                    "low",
+                    "mid",
+                    "high"
+                  ]
+                }
+              },
+              {
+                "operationMode": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "heat"
+                  ]
+                },
+                "temperatureSetpoint": {
+                  "type": "floatValue",
+                  "minValue": 16,
+                  "maxValue": 30,
+                  "unitOfMeasure": "C"
+                },
+                "fanSpeed": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "auto",
+                    "quiet",
+                    "low",
+                    "mid",
+                    "high"
+                  ]
+                }
+              },
+              {
+                "operationMode": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "cool"
+                  ]
+                },
+                "temperatureSetpoint": {
+                  "type": "floatValue",
+                  "minValue": 16,
+                  "maxValue": 30,
+                  "unitOfMeasure": "C"
+                },
+                "fanSpeed": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "auto",
+                    "quiet",
+                    "low",
+                    "mid",
+                    "high"
+                  ]
+                }
+              },
+              {
+                "operationMode": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "fanOnly"
+                  ]
+                },
+                "fanSpeed": {
+                  "type": "stringValue",
+                  "allowedValues": [
+                    "quiet",
+                    "low",
+                    "mid",
+                    "high"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "/airConditioning/switchPrograms/enabled": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/switchPrograms/enabled",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "on",
+        "allowedValues": [
+          "off",
+          "on"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/switchPrograms/list"
+    },
+    "/airConditioning/switchPrograms/activeProgram": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/switchPrograms/activeProgram",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "program1",
+        "allowedValues": [
+          "program1",
+          "program2"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/switchPrograms/list"
+    },
+    "/airConditioning/switchPrograms/temporarySetting/enabled": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/switchPrograms/temporarySetting/enabled",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "on",
+        "allowedValues": [
+          "off"
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/switchPrograms/list"
+    },
+    "/airConditioning/switchPrograms/configuration": {
+      "status": 200,
+      "body": {
+        "id": "/airConditioning/switchPrograms/configuration",
+        "type": "configDataArray",
+        "writeable": 0,
+        "maxNbOfSwitchPoints": 70,
+        "maxNbOfSwitchPointsPerDay": 10,
+        "switchPointTimeRaster": 15,
+        "allowedValues": [
+          {
+            "operationMode": {
+              "type": "stringValue",
+              "allowedValues": [
+                "auto"
+              ]
+            },
+            "fanSpeed": {
+              "type": "stringValue",
+              "allowedValues": [
+                "auto",
+                "quiet",
+                "low",
+                "mid",
+                "high"
+              ]
+            }
+          },
+          {
+            "operationMode": {
+              "type": "stringValue",
+              "allowedValues": [
+                "heat"
+              ]
+            },
+            "temperatureSetpoint": {
+              "type": "floatValue",
+              "minValue": 16,
+              "maxValue": 30,
+              "unitOfMeasure": "C"
+            },
+            "fanSpeed": {
+              "type": "stringValue",
+              "allowedValues": [
+                "auto",
+                "quiet",
+                "low",
+                "mid",
+                "high"
+              ]
+            }
+          },
+          {
+            "operationMode": {
+              "type": "stringValue",
+              "allowedValues": [
+                "cool"
+              ]
+            },
+            "temperatureSetpoint": {
+              "type": "floatValue",
+              "minValue": 16,
+              "maxValue": 30,
+              "unitOfMeasure": "C"
+            },
+            "fanSpeed": {
+              "type": "stringValue",
+              "allowedValues": [
+                "auto",
+                "quiet",
+                "low",
+                "mid",
+                "high"
+              ]
+            }
+          },
+          {
+            "operationMode": {
+              "type": "stringValue",
+              "allowedValues": [
+                "fanOnly"
+              ]
+            },
+            "fanSpeed": {
+              "type": "stringValue",
+              "allowedValues": [
+                "quiet",
+                "low",
+                "mid",
+                "high"
+              ]
+            }
+          }
+        ]
+      },
+      "via_bulk_parent": "/airConditioning/switchPrograms/list"
+    },
+    "/airConditioning/timers": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "51a4bcad-344a-41f5-b65d-26f2c8a4bca6",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    "/system/bus": {
+      "status": 200,
+      "body": {
+        "id": "/system/bus",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "Echonet"
+      }
+    },
+    "/system/brand": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "d73fd26f-2507-4c4a-a36c-0f2ccc27c476",
+        "httpStatus": "FORBIDDEN",
+        "message": ""
+      }
+    },
+    "/system/appliance": {
+      "status": 200,
+      "body": {
+        "id": "/system/appliance",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/system/appliance/model",
+            "uri": "https://10.10.20.42/system/appliance/model"
+          }
+        ]
+      }
+    },
+    "/gateway/uuid": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/uuid",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    "/gateway/versionServicePack": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/versionServicePack",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "3.22.0.1.2.7.0.0.2.2.0.7"
+      }
+    },
+    "/gateway/swPrefix": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/swPrefix",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "WG_TTEC_RAC_ECHONET"
+      }
+    },
+    "/gateway/versionFirmware": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/versionFirmware",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "05.00.06"
+      }
+    },
+    "/gateway/versionHardware": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/versionHardware",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "G10CL2_V1"
+      }
+    },
+    "/gateway/serialId": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/serialId",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    "/gateway/xmppPassword": {
+      "skipped_sensitive": true
+    },
+    "/gateway/eolCmd": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "7c6ceb82-e893-4af3-8f15-9c6cf0c2b636",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    "/gateway/DateTime": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/DateTime",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "2026-08-02T18:37:35+0100"
+      }
+    },
+    "/gateway/tosAccepted": {
+      "status": 405,
+      "error": {
+        "code": 405,
+        "description": "Method Not Allowed",
+        "errorId": "3254d093-d011-419e-89bd-48744ed1dd9b",
+        "httpStatus": "METHOD_NOT_ALLOWED",
+        "message": ""
+      }
+    },
+    "/gateway/factoryReset": {
+      "status": 405,
+      "error": {
+        "code": 405,
+        "description": "Method Not Allowed",
+        "errorId": "3189a6e9-e1be-419b-bd7d-0d5451b6bd46",
+        "httpStatus": "METHOD_NOT_ALLOWED",
+        "message": ""
+      }
+    },
+    "/gateway/wifi": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/wifi",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/gateway/wifi/wifiQuality",
+            "uri": "https://10.10.20.42/gateway/wifi/wifiQuality"
+          },
+          {
+            "id": "/gateway/wifi/mac",
+            "uri": "https://10.10.20.42/gateway/wifi/mac"
+          },
+          {
+            "id": "/gateway/wifi/apList",
+            "uri": "https://10.10.20.42/gateway/wifi/apList"
+          },
+          {
+            "id": "/gateway/wifi/ap",
+            "uri": "https://10.10.20.42/gateway/wifi/ap"
+          },
+          {
+            "id": "/gateway/wifi/ssid",
+            "uri": "https://10.10.20.42/gateway/wifi/ssid"
+          }
+        ]
+      }
+    },
+    "/gateway/update": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/update",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/gateway/update/triggerRequest",
+            "uri": "https://10.10.20.42/gateway/update/triggerRequest"
+          }
+        ]
+      }
+    },
+    "/gateway/tzInfo": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/tzInfo",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/gateway/tzInfo/timeZone",
+            "uri": "https://10.10.20.42/gateway/tzInfo/timeZone"
+          }
+        ]
+      }
+    },
+    "/system/appliance/model": {
+      "status": 200,
+      "body": {
+        "id": "/system/appliance/model",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "rac-sharp-default"
+      }
+    },
+    "/gateway/wifi/wifiQuality": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "daa18a91-1f72-4aaf-8d67-b9e67086c591",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    "/gateway/wifi/mac": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/wifi/mac",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    "/gateway/wifi/apList": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "0caaa03e-15a3-496c-a4ed-e1740da7cb07",
+        "httpStatus": "FORBIDDEN",
+        "message": ""
+      }
+    },
+    "/gateway/wifi/ap": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "7f9bc11f-bf97-4c32-a2e9-811f15dd64cd",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    "/gateway/wifi/ssid": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/wifi/ssid",
+        "type": "apList",
+        "writeable": 0,
+        "recordable": 0,
+        "values": "REDACTED"
+      }
+    },
+    "/gateway/update/triggerRequest": {
+      "status": 403,
+      "error": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "c066d080-1f8e-4903-a378-6c1db91a2621",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    "/gateway/tzInfo/timeZone": {
+      "status": 200,
+      "body": {
+        "id": "/gateway/tzInfo/timeZone",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "Europe/Stockholm"
+      }
+    }
+  }
+}

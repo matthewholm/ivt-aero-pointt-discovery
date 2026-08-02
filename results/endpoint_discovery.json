@@ -1,0 +1,1229 @@
+{
+  "device_id": "REDACTED",
+  "tested_at": "2026-08-02T16:28:54.128682+00:00",
+  "results": [
+    {
+      "path": "/heatingCircuits/hc1/roomtemperature",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "09b1bcdf-c0db-447f-9ca2-1b7048953720",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/currentRoomSetpoint",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "d8bbd802-1dad-46ce-a777-a9e36046f5bd",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/temporaryRoomSetpoint",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "9d8ce6f3-26b7-4290-a57a-5260f5b64109",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/operationMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "16df25b5-2c68-40a1-b298-a584ed7b5239",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/activeSwitchProgram",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "e5398d2c-df2d-45cd-930e-22717c7c12bf",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/overallStatus",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "efb05a43-1e06-4833-a5c4-5abee81b4ce9",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/temperatureLevels/comfort2",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "f669a87f-be0c-492a-bb82-18afccdfb579",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/temperatureLevels/eco",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "bc96b6e9-8e88-418b-9045-67c4a2103b5b",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/maxFlowTemp",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "12a96eb7-94dc-4b7d-8a15-23c823a0d544",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/heatingType",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "d0a36e50-26fe-4946-b049-9434d642ddcb",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/controlType",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a939931d-72ca-4473-8c1d-197500dcc487",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/heatCoolMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "77b1bb81-8469-4f30-a9b7-4233db504721",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/currentSuWiMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "b97692c0-5a75-41aa-9d28-1652adbb1fa9",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/suWiSwitchMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "21f0e8b9-a1c6-47f1-bb8f-7a0955015155",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1/suWiThreshold",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "13378e0d-31b2-4849-87f5-4b3a93a98292",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/actualTemp",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "37239776-1445-46de-97bf-af7f9cbe5622",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/currentSetpoint",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "829cbbce-73f2-4b4f-b0fe-0853cbb17f49",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/operationMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "310a02d4-deeb-4221-9aac-638768109536",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/overallStatus",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "855df25c-f3bc-4302-bf4d-5ae87078e540",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/charge",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "2dd3e06a-752f-4de6-9e27-7e00ae6a03bc",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/chargeDuration",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "726a57a8-6fa1-4598-84cc-779aa145ba21",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/singleChargeSetpoint",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a9730fd1-a0b2-4f8c-b8c5-1ac81a8bb1eb",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/reduceTempOnAlarm",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "3e2cefef-a0dc-4e42-89e0-8d5205d17da3",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/tdMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "07ba1d37-798e-405e-8f9a-d6c1b2d50278",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/temperatureLevels/eco",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "32e50743-a0a9-4250-b74a-5871ecd62ffe",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/temperatureLevels/high",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a12474c3-8866-455c-aadd-3ba32220dc3a",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/temperatureLevels/low",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "cfaa11fb-1788-4047-8c42-fef5bd80e2af",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1/temperatureLevels/off",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "88e7533a-295c-4f08-b1b1-df0ba9699608",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/actualModulation",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "344b66d5-977d-4dbd-b9bf-3c62e6283130",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/actualSupplyTemperature",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "081912bc-431f-4007-a6fe-6270184f68b2",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/returnTemperature",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "d8e280e7-32e5-4962-b3ab-87d4e527061c",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/chStatus",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "fa800a05-c754-4fed-b94b-879d68717998",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/actualHeatDemand",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "ccecae01-216f-4780-8c5a-bb2010d98e21",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/numberOfStarts",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "13295edd-cfc8-4bf5-b012-7af98bae92cd",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/hs1/type",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a3d20079-78f4-4ed2-8abe-530dcbfefdde",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/hs1/heatPumpType",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "863ba932-b30c-4c5d-b833-6dedc8d05c26",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/standbyMode",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "0c43c270-9b43-463c-9cf2-55ec053446cd",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/emStatus",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "368cfa03-b4ea-4a12-a7ad-eefc6e5e0818",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/hs1/numberOfStarts",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "596346e8-e1f2-466d-988f-94e4685b30e5",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/sensors/temperatures/outdoor_t1",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "f050d973-1b07-42ae-8e70-403efdf483eb",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/dateTime",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "ce68ef0c-e709-45b2-8620-db4fba60cf51",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/bus",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/system/bus",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "Echonet"
+      }
+    },
+    {
+      "path": "/system/brand",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "11630375-efe5-43bd-afc5-5cca6bf40747",
+        "httpStatus": "FORBIDDEN",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/country",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "f4b92f0a-d18f-4546-b05b-a6a429026573",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/type",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a55d94ce-487c-417d-a9f6-96703fc4c549",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/info",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "f3b2a8c5-c67a-4f8e-809c-6cfa2568d30e",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/gateway/versionFirmware",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/versionFirmware",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "05.00.06"
+      }
+    },
+    {
+      "path": "/gateway/versionHardware",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/versionHardware",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "G10CL2_V1"
+      }
+    },
+    {
+      "path": "/gateway/dateTime",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "348df39f-33da-4cbe-8a06-e05973562dba",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/gateway/uuid",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/uuid",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    {
+      "path": "/gateway/wifi/ip/ipv4",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "e7d67c51-f924-46c6-b278-def3ff1209ba",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/gateway/wifi/mac",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/wifi/mac",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    {
+      "path": "/gateway/wifi/ssid",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/wifi/ssid",
+        "type": "apList",
+        "writeable": 0,
+        "recordable": 0,
+        "values": "REDACTED"
+      }
+    },
+    {
+      "path": "/gateway/serialId",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/serialId",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "REDACTED"
+      }
+    },
+    {
+      "path": "/gateway/swPrefix",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/swPrefix",
+        "type": "stringValue",
+        "writeable": 0,
+        "recordable": 0,
+        "value": "WG_TTEC_RAC_ECHONET"
+      }
+    },
+    {
+      "path": "/gateway/tzInfo/timeZone",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway/tzInfo/timeZone",
+        "type": "stringValue",
+        "writeable": 1,
+        "recordable": 0,
+        "value": "Europe/Stockholm"
+      }
+    },
+    {
+      "path": "/notifications",
+      "source": "known",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/notifications",
+        "type": "errorList",
+        "writeable": 0,
+        "recordable": 0,
+        "values": []
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/total/compressor",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "f09e0be4-74e4-454c-9685-97215af08b9f",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/total/eheater",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "31d26584-3f72-412f-a341-1ea0413f3453",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/total/outputProduced",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "2d66a424-7511-444d-bec3-78cf37482b6f",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/ch/compressor",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "af633c1e-10d4-44b0-99ef-9e106443abb9",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/ch/eheater",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "8960db91-80c7-47fd-be0e-3f5dae68c8cf",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/ch/outputProduced",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "44a1ba9a-14f5-4262-85b8-db7762321d48",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/dhw/compressor",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "d90cb2ff-aaf6-4f99-b6a0-91aa9def0218",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/dhw/eheater",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "058000ac-8ee9-4149-b884-bab689f9d91f",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon/dhw/outputProduced",
+      "source": "known",
+      "status": 403,
+      "ok": false,
+      "body": {
+        "code": 403,
+        "description": "Forbidden",
+        "errorId": "abdebd60-ac3e-4aa4-8324-9df555aca508",
+        "httpStatus": "FORBIDDEN",
+        "message": "User is unauthorized to access this resource"
+      }
+    },
+    {
+      "path": "/system/variableTariff/ch/optimization",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "83071b95-c794-42bc-8ee9-a73018c867c5",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/ch/highPriceDelta",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "13bd1594-5761-4f18-921f-36df4162e04e",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/ch/lowPriceDelta",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "bba7cb48-aeff-4de2-b6dd-ec34337f8aef",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/ch/midPriceSetpoint",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "a7bb0af4-8810-474a-ab42-5c42bc32cb05",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/dhw/optimization",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "850c0778-8c5f-48d7-9f32-aa556bc3e365",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/dhw/highPriceEnable",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "c3d16642-cad8-4a7e-8022-372712634d11",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/dhw/lowPriceEnable",
+      "source": "known",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "9cb671cd-0748-4f08-a81b-f144c886e66c",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "51c9d014-d403-4441-b5d7-e99f4e8c1bb4",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatingCircuits/hc1",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "d65d38ea-8ad8-4772-9788-b388f2786f21",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "bad9a9bb-e034-4d32-8435-e0cb968d82b4",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/dhwCircuits/dhw1",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "3aeb46de-aa24-41ab-a8b7-fb1994d0e97d",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "4b851703-7df7-42b3-b580-77ca8853ae0d",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/heatSources/hs1",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "7ec26558-525f-4cbd-b892-00861b2e40ca",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system",
+      "source": "probe",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/system",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/system/bus",
+            "uri": "https://10.10.20.42/system/bus"
+          },
+          {
+            "id": "/system/brand",
+            "uri": "https://10.10.20.42/system/brand"
+          },
+          {
+            "id": "/system/appliance",
+            "uri": "https://10.10.20.42/system/appliance"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/system/sensors",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "0ff03560-08ff-4609-bc8d-bfc5231f7452",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/sensors/temperatures",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "d729975d-1751-4aae-90ea-eb5f1b68cb47",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "5ac07472-2ff7-4911-b68d-621852e3ac70",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/ch",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "90c6ada9-5dcf-4a56-a28e-cc49c2f3c4a9",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/system/variableTariff/dhw",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "e2097f22-da19-40ee-960e-cdb8e2dc6eb5",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/gateway",
+      "source": "probe",
+      "status": 200,
+      "ok": true,
+      "body": {
+        "id": "/gateway",
+        "type": "refEnum",
+        "references": [
+          {
+            "id": "/gateway/uuid",
+            "uri": "https://10.10.20.42/gateway/uuid"
+          },
+          {
+            "id": "/gateway/versionServicePack",
+            "uri": "https://10.10.20.42/gateway/versionServicePack"
+          },
+          {
+            "id": "/gateway/swPrefix",
+            "uri": "https://10.10.20.42/gateway/swPrefix"
+          },
+          {
+            "id": "/gateway/versionFirmware",
+            "uri": "https://10.10.20.42/gateway/versionFirmware"
+          },
+          {
+            "id": "/gateway/versionHardware",
+            "uri": "https://10.10.20.42/gateway/versionHardware"
+          },
+          {
+            "id": "/gateway/serialId",
+            "uri": "https://10.10.20.42/gateway/serialId"
+          },
+          {
+            "id": "/gateway/xmppPassword",
+            "uri": "https://10.10.20.42/gateway/xmppPassword"
+          },
+          {
+            "id": "/gateway/eolCmd",
+            "uri": "https://10.10.20.42/gateway/eolCmd"
+          },
+          {
+            "id": "/gateway/DateTime",
+            "uri": "https://10.10.20.42/gateway/DateTime"
+          },
+          {
+            "id": "/gateway/tosAccepted",
+            "uri": "https://10.10.20.42/gateway/tosAccepted"
+          },
+          {
+            "id": "/gateway/factoryReset",
+            "uri": "https://10.10.20.42/gateway/factoryReset"
+          },
+          {
+            "id": "/gateway/wifi",
+            "uri": "https://10.10.20.42/gateway/wifi"
+          },
+          {
+            "id": "/gateway/update",
+            "uri": "https://10.10.20.42/gateway/update"
+          },
+          {
+            "id": "/gateway/tzInfo",
+            "uri": "https://10.10.20.42/gateway/tzInfo"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/recordings",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "9f561334-835d-4f55-afd6-4d2cf8b87dc6",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/recordings/heatSources",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "e7bd135c-73a2-4d42-b3c0-d72fffda1959",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    },
+    {
+      "path": "/recordings/heatSources/emon",
+      "source": "probe",
+      "status": 404,
+      "ok": false,
+      "body": {
+        "code": 404,
+        "description": "Not Found",
+        "errorId": "818c1ecf-772e-4907-96c5-6faccd114f4f",
+        "httpStatus": "NOT_FOUND",
+        "message": ""
+      }
+    }
+  ]
+}

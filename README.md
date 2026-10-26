@@ -148,7 +148,7 @@ Two ways to get one:
 [`results/endpoint_discovery.json`](results/endpoint_discovery.json) and
 [`results/resource_tree.json`](results/resource_tree.json) are the actual
 output from running these scripts against a real IVT Aero + K30 gateway.
-Account-identifying fields (`device_id`, `serialId`, MAC address, wifi SSID)
+Account-identifying fields (`device_id`, gateway `uuid`, `serialId`, MAC address, wifi SSID)
 are redacted; everything else (paths, types, allowed values, units) is
 exactly as returned by the API.
 
